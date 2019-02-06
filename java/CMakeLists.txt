@@ -41,6 +41,7 @@ set(JNI_NATIVE_SOURCES
         rocksjni/event_listener.cc
         rocksjni/event_listener_jnicallback.cc
         rocksjni/export_import_files_metadatajni.cc
+        rocksjni/flink_compactionfilterjni.cc
         rocksjni/filter.cc
         rocksjni/import_column_family_options.cc
         rocksjni/hyper_clock_cache.cc
