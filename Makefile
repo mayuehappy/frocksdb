@@ -173,6 +173,8 @@ else
 	CXXFLAGS += -fno-rtti
 endif
 
+CXXFLAGS += -DNPERF_CONTEXT
+
 ifdef ASSERT_STATUS_CHECKED
 # For ASC, turn off constructor elision, preventing the case where a constructor returned
 # by a method may pass the ASC check if the status is checked in the inner method.  Forcing
