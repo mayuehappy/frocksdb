@@ -45,6 +45,7 @@ commands:
             echo "export SNAPPY_DOWNLOAD_BASE=https://rocksdb-deps.s3.us-west-2.amazonaws.com/pkgs/snappy" >> $BASH_ENV
             echo "export LZ4_DOWNLOAD_BASE=https://rocksdb-deps.s3.us-west-2.amazonaws.com/pkgs/lz4" >> $BASH_ENV
             echo "export ZSTD_DOWNLOAD_BASE=https://rocksdb-deps.s3.us-west-2.amazonaws.com/pkgs/zstd" >> $BASH_ENV
+            echo "export DISABLE_PERF_CONTEXT=0" >> $BASH_ENV
 
   windows-build-steps:
     steps:
